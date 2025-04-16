@@ -4,6 +4,7 @@ import cssLogo from './assets/css3.webp';
 import jsLogo from './assets/js.webp';
 import phpLogo from './assets/php.png';
 import sqlLogo from './assets/sql.svg';
+import catsuLogo from './assets/catsu_logo.png';
 
 
 function About() {
@@ -42,7 +43,7 @@ function About() {
             <p>I am a graduate of Bachelor of Science in Information Systems at 
               <span> <a href="https://catsu.edu.ph" target="_blank">Catanduanes State University</a></span>
             </p>
-            <img src="./src/assets/catsu_logo.png" height="80" width="80" alt="CatSU Logo" />
+            <img src={catsuLogo} height="80" width="80" alt="CatSU Logo" />
             <br />
             <span>AY:2020-2024</span>
           </div>
