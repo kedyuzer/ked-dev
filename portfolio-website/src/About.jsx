@@ -1,9 +1,9 @@
 import React, { useEffect } from 'react';
-import htmlLogo from './src/assets/HTML5.png';
-import cssLogo from './src/assets/css3.webp';
-import jsLogo from './src/assets/js.webp';
-import phpLogo from './src/assets/php.png';
-import sqlLogo from './src/assets/sql.svg';
+import htmlLogo from './assets/HTML5.png';
+import cssLogo from './assets/css3.webp';
+import jsLogo from './assets/js.webp';
+import phpLogo from './assets/php.png';
+import sqlLogo from './assets/sql.svg';
 
 
 function About() {

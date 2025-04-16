@@ -1,5 +1,5 @@
-import laptopImg from './src/assets/3d_laptop.png';
-import logo from './src/assets/logo.png';
+import laptopImg from './assets/3d_laptop.png';
+import logo from './assets/logo.png';
  function Header(){
     return(
         <div className="home" id="home">
