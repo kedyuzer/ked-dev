@@ -1,9 +1,10 @@
-
+import laptopImg from './src/assets/3d_laptop.png';
+import logo from './src/assets/logo.png';
  function Header(){
     return(
         <div className="home" id="home">
         <div className="d-flex flex-wrap flex-row header">
-            <div className="w-50" id="logo"> <img src="./src/assets/logo.png" alt="logo" srcSet=""></img> </div>
+            <div className="w-50" id="logo"> <img src={logo} alt="logo" srcSet=""></img> </div>
             <button className="btn btn-primary d-flex d-md-none ms-auto justify-content-end" type="button" data-bs-toggle="collapse" data-bs-target="#mobileNav">
                     Menu
               </button>
@@ -22,7 +23,7 @@
             <div className="intro  text-start"><span>Hi, I am </span><span id="name">Jose Benavidez</span>
                 <p>A Web developer and Designer</p>
             </div>
-            <div id="mid_image"> <img src="./src/assets/3d_laptop.png" alt="3d laptop" srcSet=""></img></div>
+            <div id="mid_image"> <img src={laptopImg} alt="3d laptop" srcSet=""></img></div>
         </div>
     </div>
     );

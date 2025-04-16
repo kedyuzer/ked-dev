@@ -1,4 +1,10 @@
 import React, { useEffect } from 'react';
+import htmlLogo from './src/assets/HTML5.png';
+import cssLogo from './src/assets/css3.webp';
+import jsLogo from './src/assets/js.webp';
+import phpLogo from './src/assets/php.png';
+import sqlLogo from './src/assets/sql.svg';
+
 
 function About() {
 
@@ -43,11 +49,11 @@ function About() {
           <div className="cards">
             <p style={{ fontWeight: 'bolder', fontSize: '20px', color: '#1378f4' }}>Skills</p>
             <div className="skill_set d-flex align-content-center">
-              <div className="skills"><img src="./src/assets/HTML5.png" height="100" width="100" alt="" /></div>
-              <div className="skills"><img src="./src/assets/php.png" height="100" width="100" alt="" /></div>
-              <div className="skills"><img src="./src/assets/js.webp" height="100" width="100" alt="" /></div>
-              <div className="skills"><img src="./src/assets/css3.webp" height="105" width="105" alt="" /></div>
-              <div className="skills"><img src="./src/assets/sql.svg" height="100" width="100" alt="" /></div>
+              <div className="skills"><img src={htmlLogo} height="100" width="100" alt="" /></div>
+              <div className="skills"><img src={cssLogo} height="100" width="100" alt="" /></div>
+              <div className="skills"><img src={jsLogo} height="100" width="100" alt="" /></div>
+              <div className="skills"><img src={phpLogo} height="105" width="105" alt="" /></div>
+              <div className="skills"><img src={sqlLogo} height="100" width="100" alt="" /></div>
             </div>
           </div>
         </div>
