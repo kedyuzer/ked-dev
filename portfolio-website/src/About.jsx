@@ -44,7 +44,7 @@ function About() {
           </div>
           <div className="cards">
             <p style={{ fontWeight: 'bolder', fontSize: '20px', color: 'white' }}>Skills</p>
-            <div className="skill_set d-flex align-content-center flex-wrap flex-row">
+            <div className="skill_set d-flex justify-content-center flex-wrap flex-row">
               <div className="skills">
                 <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg' height="40" width="40" alt="ReactJs Image" />
                 <p>ReactJS</p>
