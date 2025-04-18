@@ -20,7 +20,7 @@ import logo from './assets/logo.png';
                 </nav>
         </div>
          <div className="d-flex flex-wrap flex-row-reverse align-items-center" id="mid">
-            <div className="intro  text-start"><span>Hi, I am </span><span id="name">Jose Benavidez</span>
+            <div className="intro  text-start"><span>Hi, I am </span><span id="name">Jose Benavidez</span>,
                 <p>A Web developer and Designer</p>
             </div>
             <div id="mid_image"> <img src={laptopImg} alt="3d laptop" srcSet=""></img></div>

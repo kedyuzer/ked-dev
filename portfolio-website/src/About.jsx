@@ -1,9 +1,4 @@
 import React, { useEffect } from 'react';
-import htmlLogo from './assets/HTML5.png';
-import cssLogo from './assets/css3.webp';
-import jsLogo from './assets/js.webp';
-import phpLogo from './assets/php.png';
-import sqlLogo from './assets/sql.svg';
 import catsuLogo from './assets/catsu_logo.png';
 
 
@@ -39,7 +34,7 @@ function About() {
       <div className="content_wrapper"> 
         <div className="about_content d-flex flex-row flex-wrap justify-content-center w-100">
           <div className="cards">
-            <p style={{ fontWeight: 'bolder', fontSize: '20px', color: '#1378f4' }}>School Last Attended</p>
+            <p style={{ fontWeight: 'bolder', fontSize: '20px', color: 'white' }}>School Last Attended</p>
             <p>I am a graduate of Bachelor of Science in Information Systems at 
               <span> <a href="https://catsu.edu.ph" target="_blank">Catanduanes State University</a></span>
             </p>
@@ -48,13 +43,32 @@ function About() {
             <span>AY:2020-2024</span>
           </div>
           <div className="cards">
-            <p style={{ fontWeight: 'bolder', fontSize: '20px', color: '#1378f4' }}>Skills</p>
-            <div className="skill_set d-flex align-content-center">
-              <div className="skills"><img src={htmlLogo} height="100" width="100" alt="" /></div>
-              <div className="skills"><img src={cssLogo} height="100" width="100" alt="" /></div>
-              <div className="skills"><img src={jsLogo} height="100" width="100" alt="" /></div>
-              <div className="skills"><img src={phpLogo} height="105" width="105" alt="" /></div>
-              <div className="skills"><img src={sqlLogo} height="100" width="100" alt="" /></div>
+            <p style={{ fontWeight: 'bolder', fontSize: '20px', color: 'white' }}>Skills</p>
+            <div className="skill_set d-flex align-content-center flex-wrap flex-row">
+              <div className="skills">
+                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/react/react-original-wordmark.svg' height="40" width="40" alt="ReactJs Image" />
+                <p>ReactJS</p>
+                </div>
+              <div className="skills">
+                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg' height="40" width="40" alt="HTML Image" />
+                <p>HTML5</p>
+                </div>
+              <div className="skills">
+                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg' height="40" width="40" alt="CSS3 Image" />
+                <p>CSS3</p>
+                </div>
+              <div className="skills">
+                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg' height="40" width="40" alt="JS Image" />
+                <p>Javascript</p>
+                </div>
+              <div className="skills">
+                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/php/php-original.svg' height="40" width="40" alt="PHP Image" />
+                <p>PHP</p>
+                </div>
+              <div className="skills">
+                <img src='https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg' height="40" width="40" alt="MYSQLImage" />
+                <p>MYSQL</p>
+                </div>
             </div>
           </div>
         </div>

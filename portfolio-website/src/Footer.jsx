@@ -16,9 +16,17 @@ function Footer(){
   <i className="fab fa-instagram"></i>
 </button>
 </a>
+<a href="https://github.com/kedyuzer" target="_blank">
+<button type="button" className="btn btn-primary btn-lg btn-floating mx-2" style={{backgroundColor: '#2358e8'}}>
+<i className="devicon-github-original"></i>
+</button>
+</a>
 </div>
 <div className="d-flex justify-content-center align-items-start pb-5">
-<i className="fas fa-phone"> +639608610703</i>
+<i class="devicon-google-plain">  <span style={{fontStyle:'normal', fontFamily:'system-ui', fontSize:'18px'}}> : josebenavidez171@gmail.com</span></i>
+</div>
+<div className="d-flex justify-content-center align-items-start pb-5">
+      Copyright 2025 | All Rights Reserved.
 </div>
 </footer>
     );

@@ -27,6 +27,7 @@ width: 100%;
 background-color:var(--bg);
 width: 100vw;
 scroll-snap-align: none center;
+box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 .header{
 margin: auto;
@@ -38,7 +39,7 @@ max-height: fit-content;
 flex-wrap: wrap;
 flex-direction: row;
 width: 100%;
-padding-right: 5rem;
+padding-right: 3rem;
 }
 #about_layer{
     font-family: var(--font);
@@ -174,7 +175,7 @@ nav span:nth-child(3){
 }
 .cards{
     margin-top: 10px;
-    width: clamp(250px, 45vw, 300px);
+    width: 100%;
     height:auto;
     margin: 20px;
     min-height: 350px;
@@ -183,6 +184,7 @@ nav span:nth-child(3){
     background-color: var(--bg);
     text-align: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .cards p, .cards span{
     color: rgb(255, 255, 255);
@@ -196,33 +198,38 @@ nav span:nth-child(3){
 
 .skill_set{
   margin-top: 50px;
-  overflow-x: scroll;
   width: auto;
   height: auto;
-  scrollbar-width: none; 
-  -ms-overflow-style: none;
   position: relative;
 }
-.skill_set ::-webkit-scrollbar{
-  display: none;
-}
 .skills{
+  display: flex;
   background-color: white;
-  width: px;
-  height: 120px;
-  border-radius: 20px;
   padding: 10px;
-  margin-inline: 10px;
+  width:300px;
+  height: auto;
+  border-radius: 10px;
+  margin: 10px;
   animation: scroll-left 20s linear infinite;
 }
-@keyframes scroll-left {
-  0%{
-    transform: translateX(20px);
-  }
-  50%{
-    transform: translateX(-450px);
-  }
-  100%{
-    transform:translateX(20px);
-  }
+.skills p{
+    color:black;
+}
+.skills img{
+    margin-right: 20px;
+}
+.skills:hover{
+    background-color: transparent;
+    justify-content: center;
+    border: #ffffff solid 1px;
+    transition: 100ms ease-in-out;
+}
+.skills:hover p{
+    color:#ffffff ;
+    font-size: 20px;
+    transition: 100ms ease-in-out;
+    margin: 0;
+}
+.skills:hover img{
+    display:none;
 }
